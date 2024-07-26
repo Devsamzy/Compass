@@ -1,0 +1,94 @@
+.container{
+border: 1px solid white;
+  padding: 40px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+form input, form select{
+  backdrop-filter: blur(5px);
+/*  background-image: linear-gradient(to right, #FF00008C,#001BFF8F);*/
+  background: #FFFFFF70;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: solid 1px #2700FF99;
+  margin: 10px 0px;
+/*  box-shadow: 0px 0px 5px 0px #000000D1;*/
+  padding: 10px;
+  text-transform: capitalize
+}
+input[type=radio]{
+ backdrop-filter: blur(5px);
+/*  background-image: linear-gradient(to right, #FF00008C,#001BFF8F);*/
+background: #FFFFFF70;
+width: 20px;
+font-size: 20px;
+border-radius: 0px;
+border: solid 1px #2700FF99;
+margin: 0;
+/*  box-shadow: 0px 0px 5px 0px #000000D1;*/
+padding: 0px;
+text-transform: capitalize
+}
+form input::placeholder{
+  color: #5E5E5E;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.container h1{
+  font-size: 20px;
+  font-weight: 600;
+  width: fit-content;
+  text-transform: capitalize;
+  color: #000000CF;
+    border: 1px solid #2700FF99;
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  padding: 10px;
+  border-bottom: none;
+  margin-top: 20px
+}
+.container .h1 {
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  border-bottom: 2px solid blue;
+  text-transform: capitalize;
+  color: #000000CF;
+  padding: 10px;
+ position: relative;
+  margin-top: 20px
+}
+form #label{
+  font-size: 20px;
+  padding-right: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.formsec{
+  border-radius: 10px;
+  border: 1px solid #2700FF99;
+  border-top-left-radius: 0px;
+  display: flex;
+ flex-direction: column;
+  
+}
+#i{
+  border-bottom: 1px solid #2700FF99;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+form h1{
+  font-size: 30px;
+  padding: 20px 0px;
+  text-transform: capitalize;
+  border-bottom: 2px solid white;
+  color: #2700FFCF;
+  
+}
